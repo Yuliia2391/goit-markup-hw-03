@@ -1,0 +1,231 @@
+:root {
+    --body-text-color: #434455;
+    --headings-text-color: #2E2F42;
+    --accent-blue-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --btn-portfolio-blue-color: #404BBF;
+    --footer-logo-bgbtn-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--body-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-blue-color);
+}
+
+.header-logo-navy {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headings-text-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--headings-text-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color)
+}
+
+.header-link:is(:hover, :focus),
+.header-address-link:is(:hover, :focus) {
+    color: var(--btn-portfolio-blue-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--headings-text-color);
+}
+
+.hero-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--accent-blue-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus) {
+    background-color: var(--btn-portfolio-blue-color);
+    color: var(--white-color);
+    ;
+}
+
+/* Section 1 about */
+
+.about-item-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-text-color);
+}
+
+.about-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+
+/* Section 2 description */
+
+.description-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+}
+
+/* Section 3 team */
+
+.team-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-text-color);
+}
+
+.team-item-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color)
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--headings-text-color)
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-blue-color);
+}
+
+.footer-logo-white {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-bgbtn-color);
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+}
+
+/* Portfolio Gallery */
+
+.btn-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--footer-logo-bgbtn-color);
+    color: var(--accent-blue-color);
+    cursor: pointer;
+}
+
+.btn-item:is(:hover, :focus) {
+    background-color: var(--btn-portfolio-blue-color);
+    color: var(--white-color);
+    ;
+}
+
+.row-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-text-color);
+}
+
+.row-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
