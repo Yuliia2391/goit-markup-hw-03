@@ -354,10 +354,9 @@ body {
 
 .btn-list {
     display: flex;
+    gap: 24px;
     padding-top: 96px;
     padding-bottom: 72px;
-    row-gap: 24px;
-    column-gap: 48px;
     justify-content: center;
 }
 
