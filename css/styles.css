@@ -26,8 +26,10 @@ body {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Header */
@@ -88,11 +90,11 @@ body {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-address-list {
     display: flex;
-    margin-left: 332px;
 }
 
 .header-address-item:not(:last-child) {
@@ -140,8 +142,9 @@ body {
 .hero-btn {
     display: inline-block;
     min-width: 169px;
-    border-radius: 4px;
     padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
 
     background-color: var(--accent-blue-color);
     color: var(--white-color);
@@ -283,7 +286,7 @@ body {
 }
 
 .team-item-text {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-item-title {
@@ -318,6 +321,10 @@ body {
     background-color: var(--headings-text-color);
 }
 
+.footer-logo-text {
+    max-width: 264px;
+}
+
 .footer-logo {
     color: var(--accent-blue-color);
     font-family: 'Raleway', sans-serif;
@@ -339,7 +346,6 @@ body {
 }
 
 .footer-text {
-    max-width: 264px;
     margin-top: 16px;
     margin-bottom: 0;
 
@@ -352,11 +358,16 @@ body {
 
 /* Portfolio Gallery */
 
+.gallery-container {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .btn-list {
     display: flex;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-top: 0;
+    margin-bottom: 72px;
     justify-content: center;
 }
 
@@ -433,8 +444,6 @@ body {
 .row-list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 0;
-    padding-bottom: 120px;
     margin-left: -24px;
     margin-top: -48px;
 }
@@ -453,7 +462,6 @@ body {
 
 .row-text {
     padding: 32px 0 32px 16px;
-    border-top: 0;
     border-right: 1px solid var(--footer-text-color);
     border-bottom: 1px solid var(--footer-text-color);
     border-left: 1px solid var(--footer-text-color);
@@ -461,7 +469,6 @@ body {
 }
 
 .row-item-title {
-    max-width: 360px;
     margin-top: 0;
     margin-bottom: 8px;
 
